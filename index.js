@@ -18,7 +18,7 @@ function count() {
     document.getElementById("dis").innerHTML = c;
     
     if (c >= max) {
-        document.getElementById("msg").innerHTML = "Time's up lil bro";
+        document.getElementById("msg").innerHTML = "Time's up!";
         clearInterval(time);
     }
 }
