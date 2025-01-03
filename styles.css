@@ -1,5 +1,5 @@
 body {
-    background-color: #121212ee;
+    background-color: #121212;
     color: #08ceff;
     font-family: Arial, sans-serif;
     text-align: center;
@@ -12,6 +12,24 @@ h1 {
 }
 
 p {
+    color: rgb(11, 33, 231);
+    font-family: 'Times New Roman', Times, serif;
     font-size: 6em;
     margin-top: 20px;
+}
+
+button {
+    background-color: black;
+    color: rgb(0, 204, 255);
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 100em;
+    border-color: rgb(43, 0, 255);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bb00ff;
+    color: #000000;
 }
